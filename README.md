@@ -30,6 +30,12 @@ Enter a title and text for your new note in the input fields provided.
 Click the "Save Note" button to save the note.
 To view an existing note, click on its title in the list of notes.
 To delete a note (if implemented), click on the "Delete" button next to the note.
+# Repo
+https://github.com/jmartincampos/NoteTaker.git
+
+# Source Code
+https://github.com/coding-boot-camp/miniature-eureka.git
+
 
 # API Endpoints
 GET /api/notes: Returns all saved notes as JSON.
