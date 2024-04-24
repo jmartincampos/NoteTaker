@@ -1,9 +1,11 @@
 // Import required modules
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 
 // Create an instance of Express
 const app = express();
+
 
 // Define middleware
 app.use(express.urlencoded({ extended: true }));
@@ -11,7 +13,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Define routes
-app.use('/api/notes', require('./routes/notes'));
+app.use('/api/notes', require("./public/notes.js"));
 
 // Define HTML routes
 app.get('/', (req, res) => {
